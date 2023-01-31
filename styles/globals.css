@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paragraph */
+.button-text {
+  @apply text-base font-medium;
+}
+
+.p2 {
+  @apply text-sm font-medium leading-6;
+}
+
+.p3 {
+  @apply text-sm font-light leading-6;
+}
+
+.p4 {
+  @apply text-sm font-light;
+}
+
+.p5 {
+  @apply text-xs font-normal;
+}
+
+/* Heading */
+
+h1,
+.h1 {
+  @apply text-[28px] font-bold leading-10;
+}
+
+h2,
+.h2 {
+  @apply text-xl font-medium leading-[30px];
+}
+
+h3,
+.h3 {
+  @apply text-lg font-medium leading-6;
+}
+
+h4,
+.h4 {
+  @apply text-base font-semibold;
+}
+
+h5,
+.h5 {
+  @apply text-sm font-normal leading-4;
+}
